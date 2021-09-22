@@ -1,0 +1,15 @@
+﻿@model EshoppingCenter.Models.Product ;
+@{
+    ViewData["Title"] = "ProductDetails";
+}
+
+<div class="product-body" style="width:100%">
+    <img src=" @Model.Image" height="550"  class="d-block w-100" alt="image of a feature product">
+    <img src=" @Model.Image1" height="550"  class="d-block w-100" alt="image of a feature product">
+    <img src=" @Model.Image2" height="550"  class="d-block w-100" alt="image of a feature product">
+    <img src=" @Model.Image3" height="550"  class="d-block w-100" alt="image of a feature product">
+    <p class="productName"> @Model.Name</p> 
+    <p class="productDescription"> @Model.Description</p>
+    <p class="productUnitPrice"> @Model.UnitPrice.ToString("c")</p>
+
+</div><!--End of ProdctBody-->

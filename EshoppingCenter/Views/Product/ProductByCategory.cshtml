@@ -1,0 +1,19 @@
+﻿@model IEnumerable<EshoppingCenter.Models.Product>;
+
+@{
+    ViewData["Title"] = "ProductByCategory";
+}
+
+
+
+@foreach (var product in Model)
+{
+    <a asp-area="" asp-controller="Product" asp-action="ProductDetails" asp-route-id="@product.Id">
+        <div class="product-body" style="width:100%">
+            <img src=" @product.Image" height="550" class="d-block w-100" alt="image of a feature product">
+            <p class="productName"> @product.Name</p>
+            <p class="productUnitPrice"> @product.UnitPrice.ToString("c")</p>
+
+        </div><!--End of ProdctBody-->
+    </a>
+}  

@@ -1,0 +1,18 @@
+﻿[
+  {
+    "Id": "5ce1dc02-e1e5-492c-a315-84673bbe40b9",
+    "Name": "Shoes"
+  },
+  {
+    "Id": "2b4d11df-2fb2-48b1-8db5-cb777a03a96f",
+    "Name": "Phones"
+  },
+  {
+    "Id": "a4d4a799-2c77-46a3-8249-744476c08566",
+    "Name": "Laptops"
+  },
+  {
+    "Id": "d35e3fa0-1c6a-4a83-b6f2-24538ad8d5e2",
+    "Name": "Wines"
+  }
+]
